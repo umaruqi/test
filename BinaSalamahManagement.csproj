@@ -1,0 +1,54 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>aspnet-BinaSalamahManagement-61AB9263-99C6-4C80-912F-80C462EB21F8</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20210331155215_AddImageModelToBinaSalamahManagement.cs" />
+    <Compile Remove="Migrations\20210331155215_AddImageModelToBinaSalamahManagement.Designer.cs" />
+    <Compile Remove="Migrations\20210403164041_InitialCreate.cs" />
+    <Compile Remove="Migrations\20210403164041_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20210403164227_InitialCreate.cs" />
+    <Compile Remove="Migrations\20210403164227_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20210404144029_AddTitleToKeuanganModel.cs" />
+    <Compile Remove="Migrations\20210404144029_AddTitleToKeuanganModel.Designer.cs" />
+    <Compile Remove="Migrations\20210404144220_AddTitleToKeuanganModel.cs" />
+    <Compile Remove="Migrations\20210404144220_AddTitleToKeuanganModel.Designer.cs" />
+    <Compile Remove="Migrations\20210404145056_AddTitleToKeuanganModel.cs" />
+    <Compile Remove="Migrations\20210404145056_AddTitleToKeuanganModel.Designer.cs" />
+    <Compile Remove="Migrations\20210404145358_AddTitleToKeuanganModel.cs" />
+    <Compile Remove="Migrations\20210404145358_AddTitleToKeuanganModel.Designer.cs" />
+    <Compile Remove="Migrations\20210405093824_InitialCreate.cs" />
+    <Compile Remove="Migrations\20210405093824_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20210405095002_AddTitleToKeuanganModel.cs" />
+    <Compile Remove="Migrations\20210405095002_AddTitleToKeuanganModel.Designer.cs" />
+    <Compile Remove="Migrations\20210405101231_AddImageModelToDb.cs" />
+    <Compile Remove="Migrations\20210405101231_AddImageModelToDb.Designer.cs" />
+    <Compile Remove="Migrations\20210405103410_AddImageModelToDb.cs" />
+    <Compile Remove="Migrations\20210405103410_AddImageModelToDb.Designer.cs" />
+    <Compile Remove="Migrations\20210405103858_AddImageModelToDb.cs" />
+    <Compile Remove="Migrations\20210405103858_AddImageModelToDb.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.12" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.12" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.12" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="3.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.12" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.12" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.12" />
+    <PackageReference Include="Microsoft.TypeScript.MSBuild" Version="4.2.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\image\" />
+  </ItemGroup>
+
+</Project>
